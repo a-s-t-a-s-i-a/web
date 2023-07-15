@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/dictionary.css">
+    <link rel="stylesheet" href="./css/collapsible.css">
+    <link rel="stylesheet" href="./css/collapsible-layout.css">
 </head>
 <body>
 
@@ -17,22 +20,27 @@
         <header class="header">
             <div class="container">
                 <div class="header__inner">
-                    <a class="logo" href="#">
-                        <img class="logo__img" src="img/logo1.png" alt="">
+                    <a class="logo" href="index.html">
+                        <img class="logo__img" src="img/logo.png" alt="">
                     </a>
                     <nav class="menu">
+                        <button class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
                         <ul class="menu__list">
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">ГРАММАТИКА</a>
+                                <a class="menu__list-link" href="grammar.html">ГРАММАТИКА</a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">ТЕКСТЫ</a>
+                                <a class="menu__list-link" href="texts.html">ТЕКСТЫ</a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">СЛОВАРЬ</a>
+                                <a class="menu__list-link menu__list-link--active" href="dictionary.html">СЛОВАРЬ</a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">ВИДЕО</a>
+                                <a class="menu__list-link" href="video.html">ВИДЕО</a>
                             </li>
                         </ul>
                     </nav>
@@ -41,7 +49,30 @@
         </header>
 
         <main class="main">
-
+            <h1 class="titleD">
+                Англо-Русский словарь
+            </h1>
+            <p class="title1"><strong>Преимущества словаря перед переводчиком</strong></p>
+            <div class="container__main">
+                <p>Если Вы возьмете текст и начнете переводить его, используя словарь, то эффект однозначно будет. Ведь текст имеет какой-то смысл. И читая его, переводя его, Вы будете понимать смысл и стараться улавливать его дальше. Как результат - запоминание некоторых слов, понимание структуры языка.</p><br><br><br>
+            </div>
+            <a href="Russian-English-Russian Dictionary.pdf" download="" title="Полный Англо-Русский словарь" class="link3">
+                Скачать словарь
+            </a>
+            <div class="area" >
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div >
         </main>
 
         <footer class="footer">
@@ -49,7 +80,7 @@
                 <span class="mail_info">
                     <div class="mail__link">o717b03@voenmeh.ru</div>
                     <a class="mail" href="https://mail.voenmeh.ru/mail/" target="_blank">
-                        <img class="mail__img" src="img/email1.png" width="48" height="38" alt="">
+                        <img class="mail__img" src="img/email.png" width="48" height="38" alt="">
                     </a>
                 </span>
                 <script class="map" type="text/javascript" charset="utf-8" async
@@ -60,7 +91,9 @@
         </footer>
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/main.js"> </script>
+    <script src="js/collapsible.js"> </script>
 </body>
 </html>
 

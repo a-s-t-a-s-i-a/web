@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/video.css">
+    <link rel="stylesheet" href="./css/collapsible.css">
+    <link rel="stylesheet" href="./css/collapsible-layout.css">
 </head>
 <body>
 
@@ -17,22 +20,27 @@
         <header class="header">
             <div class="container">
                 <div class="header__inner">
-                    <a class="logo" href="#">
-                        <img class="logo__img" src="img/logo1.png" alt="">
+                    <a class="logo" href="index.html">
+                        <img class="logo__img" src="img/logo.png" alt="">
                     </a>
                     <nav class="menu">
+                        <button class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
                         <ul class="menu__list">
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">ГРАММАТИКА</a>
+                                <a class="menu__list-link" href="grammar.html">ГРАММАТИКА</a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">ТЕКСТЫ</a>
+                                <a class="menu__list-link" href="texts.html">ТЕКСТЫ</a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">СЛОВАРЬ</a>
+                                <a class="menu__list-link" href="dictionary.html">СЛОВАРЬ</a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">ВИДЕО</a>
+                                <a class="menu__list-link menu__list-link--active" href="video.html">ВИДЕО</a>
                             </li>
                         </ul>
                     </nav>
@@ -41,6 +49,35 @@
         </header>
 
         <main class="main">
+            <br><br><br><h1 class="title">
+                Восприятие речи на слух
+            </h1>
+            <div class="interaction">
+                <p>Изучающие английский не раз слышали о языковом барьере, под которым подразумевают боязнь говорить на иностранном языке. Однако мало кто упоминает о том, что существует и слуховой барьер — плохое понимание речи на слух. </p>
+                <p><strong>Регулярно слушайте аудиоматериалы</strong></p>
+                <p>Слушайте аудиоуроки, подкасты, песни, смотрите фильмы и сериалы на английском языке (ориентируйтесь на свой уровень знаний). Главное — подобрать увлекательный для себя материал. Попробуйте пробудить в себе интерес, полюбить аудирование, тогда заниматься им будет намного проще.</p>
+            </div>
+            <h2 class="title">
+                Выступления на английском языке
+            </h2>
+
+            <div class="ted__talks">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zy2Zj8yIe6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br><br><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/V7pf3oT2_dE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br><br><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nYZSPUi-lgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br><br><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lvxJoUuG018" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <h3 class="title">
+                Интервью на английском языке <br><br>
+            </h3>
+            <!--interview-->
+            <div class="interview">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EXIW5zIdFqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br><br><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/544DTGHIBM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br><br><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AmARvccsdMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br><br><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YRvf00NooN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br><br><br>
+            </div>
 
         </main>
 
@@ -49,7 +86,7 @@
                 <span class="mail_info">
                     <div class="mail__link">o717b03@voenmeh.ru</div>
                     <a class="mail" href="https://mail.voenmeh.ru/mail/" target="_blank">
-                        <img class="mail__img" src="img/email1.png" width="48" height="38" alt="">
+                        <img class="mail__img" src="img/email.png" width="48" height="38" alt="">
                     </a>
                 </span>
                 <script class="map" type="text/javascript" charset="utf-8" async
@@ -60,7 +97,7 @@
         </footer>
     </div>
 
-
+    <script src="js/main.js"> </script>
 </body>
 </html>
 

@@ -1,0 +1,56 @@
+.main{
+    background: linear-gradient(#C69B7A, #E5C6AD, #C69B7A);
+    animation: color 9s infinite linear;
+}
+
+.title
+{
+    margin-bottom: 50px;
+    color: #2C3531;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.interaction{
+    margin-top: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 1300px;
+    text-align: justify;
+    margin-left: 50px;
+    line-height: 1.5;
+    text-indent: 30px;
+    margin-right: 20px;
+}
+
+.ted__talks{
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.interview{
+    margin-top: 230px;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+
+}
+
+@keyframes color {
+    0%   { background: #C69B7A; }
+    20%  { background: #E5C6AD; }
+    40%  { background: #77bba9; }
+    60%  { background: #D1E8E2; }
+    80%  { background: #277d70; }
+    100% { background: #a49199; }
+}
